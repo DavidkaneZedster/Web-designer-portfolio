@@ -1,0 +1,75 @@
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url('../images/main__background.png') no-repeat center;
+}
+
+.menu {
+  padding-bottom: 582px;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__link {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 15px;
+  color: #130952;
+
+}
+
+.logo {
+  padding-top: 39px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name__container {
+  margin: auto 0;
+  border: 1px solid transparent;
+  border-image: 
+    linear-gradient(
+      to left,
+      #130952, 
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ) 1;
+  }
+
+.name {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: right;
+  letter-spacing: -0.03em;
+  color: #130952;
+  max-width: 170px;
+  max-height: 94px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.about__title {
+  font-weight: 200;
+  font-size: 100px;
+  letter-spacing: -0.03em;
+  color: #130952;
+}
+
+.about__title-span {
+  font-style: normal;
+  font-weight: 500;
+  color: #FF5050;
+  text-transform: uppercase;
+  background: #130952;
+  height: 100px;
+}
