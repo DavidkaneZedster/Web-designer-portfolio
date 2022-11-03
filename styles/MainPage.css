@@ -343,13 +343,14 @@
 
 .request__input {
   padding: 10px 0px 10px 30px;
-  border: 1px solid #130952;
+  border: 1px solid transparent;
   border-image: 
     linear-gradient(
       to right,
       #130952, 
       rgba(0, 0, 0, 0)
     ) 1;
+  background-color: transparent;
 }
 
 .placeholder__input {
@@ -361,6 +362,7 @@
       #130952, 
       rgba(0, 0, 0, 0)
     ) 1;
+    background-color: transparent;
 }
 
 .submit__btn {
@@ -375,6 +377,7 @@
       #130952, 
       rgba(0, 0, 0, 0)
     ) 1;
+    background-color: transparent;
 }
 
 /* media queries */
