@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MainPage</title>
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/MainPage.css" />
+    <title>Сергей Сулавко | Web-designer</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/MainPage.css" />
+    <link rel="stylesheet" href="/styles/useStyles.css" />
   </head>
   <body>
     <header class="header">
@@ -14,21 +15,23 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">ОБО МНЕ</a>
+              <a href="#aboutMe" class="menu__link">ОБО МНЕ</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">ПОРТФОЛИО</a>
+              <a href="#portfolio" class="menu__link">ПОРТФОЛИО</a>
             </li>
-            <img class="logo" src="/images/logo.svg" alt="logo" />
+            <a href="/">
+              <img class="logo" src="/images/logo.svg" alt="logo" />
+            </a>
             <li class="menu__item">
-              <a href="#" class="menu__link">ПОЧЕМУ Я?</a>
+              <a href="#whyMe" class="menu__link">ПОЧЕМУ Я?</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">КОНТАКТЫ</a>
+              <a href="#contacts" class="menu__link">КОНТАКТЫ</a>
             </li>
           </ul>
         </nav>
-        <div class="about">
+        <div id="aboutMe" class="about">
           <div class="about__title">
             <h1 class="about__title-span">Web</h1>
             Dизайнер
@@ -53,7 +56,7 @@
               проблемы.
             </div>
             <div class="about__me-portfolio">
-              <a href="#">портфолио...</a>
+              <a href="#portfolio">портфолио...</a>
             </div>
           </div>
         </div>
@@ -61,13 +64,15 @@
     </header>
     <main class="main">
       <div class="container">
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
           <div class="portfolio__header">
             <div>
               <h2 class="title portfolio__title">ПОРТФОЛИО</h2>
             </div>
             <div class="all__works">
-              <a class="all__works-link" href="#">все работы</a>
+              <a class="all__works-link" href="/pages/portfolio.html">
+                все работы
+              </a>
             </div>
           </div>
           <div class="works">
@@ -121,7 +126,7 @@
             </div>
           </div>
         </section>
-        <section class="why__me">
+        <section id="whyMe" class="why__me">
           <div class="why__me-header">
             <h2 class="title why__me-title">ПОЧЕМУ Я?</h2>
           </div>
@@ -168,7 +173,7 @@
             </div>
           </div>
         </section>
-        <section class="questions">
+        <section id="contacts" class="questions">
           <div class="questions__header">
             <h2 class="questions__title">Остались <span>вопросы?</span></h2>
             <p class="questions__subscription">
@@ -227,27 +232,29 @@
       <footer class="footer">
         <div class="container">
           <div class="footer__logo">
-            <img src="/images/logo.svg" alt="logo" />
+            <a href="/">
+              <img src="/images/logo.svg" alt="logo" />
+            </a>
           </div>
           <div class="footer__container">
             <div class="contact">
               <p class="title name no-border">Сергей Сулавко</p>
-              <a href="#" class="contact__button">связаться</a>
+              <a href="#contacts" class="contact__button">связаться</a>
             </div>
             <div>
               <nav class="footer__menu">
                 <ul class="footer__menu-list">
                   <li class="footer__menu-item">
-                    <a href="#" class="footer__menu-link">ОБО МНЕ</a>
+                    <a href="#aboutMe" class="footer__menu-link">ОБО МНЕ</a>
                   </li>
                   <li class="footer__menu-item">
-                    <a href="#" class="footer__menu-link">ПОРТФОЛИО</a>
+                    <a href="#portfolio" class="footer__menu-link">ПОРТФОЛИО</a>
                   </li>
                   <li class="footer__menu-item">
-                    <a href="#" class="footer__menu-link">ПОЧЕМУ Я?</a>
+                    <a href="#whyMe" class="footer__menu-link">ПОЧЕМУ Я?</a>
                   </li>
                   <li class="footer__menu-item">
-                    <a href="#" class="footer__menu-link">КОНТАКТЫ</a>
+                    <a href="#contacts" class="footer__menu-link">КОНТАКТЫ</a>
                   </li>
                 </ul>
               </nav>
